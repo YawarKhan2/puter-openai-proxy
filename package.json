@@ -1,0 +1,14 @@
+{
+  "name": "puter-claude-gateway",
+  "version": "2.0.0",
+  "description": "OpenAI + Anthropic compatible gateway for Claude models via Puter.js (OmniRoute / Claude Code ready)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@heyputer/puter.js": "latest"
+  }
+}
